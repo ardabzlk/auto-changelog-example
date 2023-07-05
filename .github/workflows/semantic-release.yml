@@ -5,7 +5,7 @@ on:
 
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
-  
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -21,4 +21,4 @@ jobs:
       run: npm install -g semantic-release @semantic-release/git @semantic-release/changelog -D
 
     - name: release
-      run: npx semantic-release
+      run: npx semantic-release --repository-url=https://github.com/ardabzlk/auto-changelog-example.git
