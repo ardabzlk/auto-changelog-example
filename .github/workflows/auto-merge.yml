@@ -17,6 +17,9 @@ on:
     types:
       - completed
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+  
 jobs:
   automerge:
     runs-on: ubuntu-latest
