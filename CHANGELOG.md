@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ardabzlk/auto-changelog-example/compare/v1.0.0...v1.1.0) (2023-07-05)
+
+
+### Features
+
+* Add documentation ([2d8485a](https://github.com/ardabzlk/auto-changelog-example/commit/2d8485a1b994b507932e151ae12acc51fb0d52b2))
+
 # 1.0.0 (2023-07-05)
 
 
